@@ -28,7 +28,7 @@ export default function() {
 
     // PATCH
     let patchPayload = {
-        "name": "md shuvo",
+        "name": "$huv0",
         "job": "Software QA Engineer"
     }
 
