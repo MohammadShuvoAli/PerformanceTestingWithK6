@@ -20,7 +20,7 @@ export default function() {
     let res = http.batch([req1, req2]);
 
     check(res[0], {
-        'Example.com was 200': (res) => res.status === 200,
+        'Google.com was 200': (res) => res.status === 200,
     });
 
     check(res[1], {
