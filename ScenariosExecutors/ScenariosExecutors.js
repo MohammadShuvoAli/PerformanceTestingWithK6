@@ -64,5 +64,5 @@ export default function () {
     check(res, {
         'is status 200': r => r.status === 200,
     });
-    // console.log(res.body);
+    console.log(res.body);
 }
